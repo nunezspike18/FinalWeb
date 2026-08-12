@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional student portfolio featuring web design, UI development, and a wardrobe management application.">
+  <title>Pike-Pike | Creative Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container">
+      <a class="brand" href="#home" aria-label="Pike-Pike portfolio home">
+        <span class="brand-mark">PP</span>
+        <span>PIKE-PIKE</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a class="nav-contact" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-dark" id="home">
+      <div class="hero-grid"></div>
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> CREATIVE DEVELOPER • UI DESIGNER</p>
+          <h1>Turning ideas into <span>clean digital experiences.</span></h1>
+          <p class="hero-text">
+            I design and build modern, responsive interfaces with a focus on usability,
+            visual quality, and practical functionality.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">Explore My Work <span>↗</span></a>
+            <a class="btn btn-outline" href="#contact">Let's Connect</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>01</strong><span>Featured App</span></div>
+            <div><strong>07+</strong><span>UI Screens</span></div>
+            <div><strong>100%</strong><span>Student Project</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="window-bar"><i></i><i></i><i></i><span>portfolio.js</span></div>
+            <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Pike-Pike"</span>,
+  role: <span class="green">"Web Developer"</span>,
+  skills: [
+    <span class="green">"HTML"</span>,
+    <span class="green">"CSS"</span>,
+    <span class="green">"JavaScript"</span>,
+    <span class="green">"UI Design"</span>
+  ],
+  passion: <span class="green">"Build & Create"</span>
+};</code></pre>
+          </div>
+          <div class="floating-badge badge-one">HTML <b>5</b></div>
+          <div class="floating-badge badge-two">CSS <b>3</b></div>
+          <div class="floating-badge badge-three">JS <b>↯</b></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about">Scroll to explore <span>↓</span></a>
+    </section>
+
+    <section class="about section-light" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark"><span></span> ABOUT ME</p>
+          <h2>Building with purpose,<br><em>designing with detail.</em></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="profile-panel reveal">
+            <div class="profile-art"><img src="assets/profile.jpg" alt="Pike-Pike profile photo"></div>
+            <div class="profile-info">
+              <p class="label">CURRENT FOCUS</p>
+              <h3>Web Development & UI Design</h3>
+              <p>Student developer passionate about transforming concepts into polished, functional interfaces.</p>
+            </div>
+          </div>
+
+          <div class="about-copy reveal">
+            <p class="large-copy">
+              Hello! I'm <strong>Pike-Pike</strong>, a student developer who enjoys creating
+              websites and applications that are both attractive and easy to use.
+            </p>
+            <p>
+              My approach combines structured HTML, thoughtful CSS, and JavaScript interactions
+              to turn an idea into a complete digital experience. My featured project is a
+              wardrobe management concept designed around organization, personalization, and modern UI.
+            </p>
+
+            <div class="skill-list">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              <span>Responsive Design</span><span>UI/UX</span><span>GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-dark" id="services">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow"><span></span> WHAT I DO</p>
+          <h2>Services & <em>Skills</em></h2>
+          <p>Practical digital solutions with a strong focus on clean interfaces and user experience.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <div class="service-number">01</div>
+            <div class="service-icon">&lt;/&gt;</div>
+            <h3>Web Development</h3>
+            <p>Responsive websites built with organized HTML, CSS, and JavaScript.</p>
+            <span class="service-link">01 — BUILD</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-number">02</div>
+            <div class="service-icon">◈</div>
+            <h3>UI / UX Design</h3>
+            <p>Clean layouts, visual hierarchy, and interfaces designed for real users.</p>
+            <span class="service-link">02 — DESIGN</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-number">03</div>
+            <div class="service-icon">⚡</div>
+            <h3>Interactive Features</h3>
+            <p>Useful JavaScript interactions such as filters, menus, modals, and dynamic content.</p>
+            <span class="service-link">03 — INTERACT</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-light" id="work">
+      <div class="container">
+        <div class="work-top">
+          <div class="section-heading reveal">
+            <p class="eyebrow dark"><span></span> SELECTED PROJECT</p>
+            <h2>My <em>Work</em></h2>
+          </div>
+          <div class="filters reveal" role="group" aria-label="Project filters">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="ui">UI Design</button>
+            <button class="filter" data-filter="app">App</button>
+            <button class="filter" data-filter="feature">Features</button>
+          </div>
+        </div>
+
+        <div class="featured-project reveal">
+          <div class="featured-image">
+            <img src="assets/wardrobe-home.jpg" alt="Wardrobe application home screen">
+            <div class="image-overlay"><span>FEATURED PROJECT</span></div>
+          </div>
+          <div class="featured-info">
+            <p class="project-tag">01 / 07 — MOBILE APPLICATION</p>
+            <h3>Wardrobe<br><em>Reimagined.</em></h3>
+            <p>
+              A modern wardrobe management concept focused on organizing clothing,
+              creating outfits, saving combinations, and making everyday style decisions easier.
+            </p>
+            <div class="tech-stack"><span>UI/UX</span><span>Flutter</span><span>Mobile</span><span>Product Design</span></div>
+            <a class="text-link" href="#projectGallery">View project screens <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="project-grid" id="projectGallery">
+          <article class="project-card project-item" data-category="app ui">
+            <div class="project-image"><img src="assets/my-wardrobe.jpg" alt="My Wardrobe screen"><button class="view-btn" data-title="My Wardrobe" data-image="assets/my-wardrobe.jpg">View</button></div>
+            <div class="project-meta"><span>02 / 07</span><h3>My Wardrobe</h3><p>Organized clothing collection with categories and search.</p></div>
+          </article>
+
+          <article class="project-card project-item" data-category="app feature">
+            <div class="project-image"><img src="assets/saved-outfits.jpg" alt="Saved outfits screen"><button class="view-btn" data-title="Saved Outfits" data-image="assets/saved-outfits.jpg">View</button></div>
+            <div class="project-meta"><span>03 / 07</span><h3>Saved Outfits</h3><p>Saved combinations presented in a simple visual layout.</p></div>
+          </article>
+
+          <article class="project-card project-item" data-category="ui feature">
+            <div class="project-image"><img src="assets/wardrobe-accessories.jpg" alt="Wardrobe accessories screen"><button class="view-btn" data-title="Accessories Collection" data-image="assets/wardrobe-accessories.jpg">View</button></div>
+            <div class="project-meta"><span>04 / 07</span><h3>Accessory Library</h3><p>Visual browsing for watches, necklaces, and accessories.</p></div>
+          </article>
+
+          <article class="project-card project-item" data-category="ui app">
+            <div class="project-image"><img src="assets/outfit-customizer.jpg" alt="Outfit customizer screen"><button class="view-btn" data-title="Outfit Customizer" data-image="assets/outfit-customizer.jpg">View</button></div>
+            <div class="project-meta"><span>05 / 07</span><h3>Outfit Customizer</h3><p>Build an outfit by choosing tops, bottoms, shoes, and more.</p></div>
+          </article>
+
+          <article class="project-card project-item" data-category="ui">
+            <div class="project-image"><img src="assets/wardrobe-shoes.jpg" alt="Wardrobe shoes screen"><button class="view-btn" data-title="Shoe Collection" data-image="assets/wardrobe-shoes.jpg">View</button></div>
+            <div class="project-meta"><span>06 / 07</span><h3>Shoe Collection</h3><p>Category-based browsing with clear product cards.</p></div>
+          </article>
+
+          <article class="project-card project-item" data-category="ui feature">
+            <div class="project-image"><img src="assets/wardrobe-tops.jpg" alt="Wardrobe tops screen"><button class="view-btn" data-title="Top Collection" data-image="assets/wardrobe-tops.jpg">View</button></div>
+            <div class="project-meta"><span>07 / 07</span><h3>Top Collection</h3><p>Filterable clothing cards with season information.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section-dark">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow"><span></span> MY PROCESS</p>
+          <h2>From concept to <em>creation.</em></h2>
+        </div>
+        <div class="process-grid">
+          <div class="process-step reveal"><b>01</b><h3>Discover</h3><p>Understand the goal, audience, and core problem.</p></div>
+          <div class="process-step reveal"><b>02</b><h3>Design</h3><p>Plan the structure, visual hierarchy, and interface.</p></div>
+          <div class="process-step reveal"><b>03</b><h3>Develop</h3><p>Turn the design into responsive, functional code.</p></div>
+          <div class="process-step reveal"><b>04</b><h3>Refine</h3><p>Test, improve, and polish the final experience.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-light" id="contact">
+      <div class="container contact-box reveal">
+        <div>
+          <p class="eyebrow dark"><span></span> GET IN TOUCH</p>
+          <h2>Have an idea?<br><em>Let's build it.</em></h2>
+          <p class="contact-copy">For school projects, collaborations, or opportunities, feel free to reach out.</p>
+        </div>
+        <div class="contact-details">
+          <div class="contact-detail"><span class="contact-icon">☎</span><div><small>MOBILE NUMBER</small><a href="tel:09563563926">09563563926</a></div></div>
+          <div class="contact-detail"><span class="contact-icon">✉</span><div><small>EMAIL</small><a href="mailto:nspike181@gmail.com">nspike181@gmail.com</a></div></div>
+          <div class="contact-detail"><span class="contact-icon">f</span><div><small>FACEBOOK</small><a href="#" aria-label="Facebook: Nu ñez">Nu ñez</a></div></div>
+          <form id="contactForm" class="contact-form">
+          <label>Name<input type="text" id="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" id="email" placeholder="your@email.com" required></label>
+          <label>Message<textarea id="message" rows="4" placeholder="Tell me about your project..." required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Message <span>↗</span></button>
+          <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="brand"><span class="brand-mark">PP</span><span>PIKE-PIKE</span></div>
+      <p>© <span id="year"></span> Pike-Pike. Built with HTML, CSS & JavaScript.</p>
+      <div class="socials">
+        <a href="#" aria-label="GitHub">GH</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Instagram">IG</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close project preview">×</button>
+      <img id="modalImage" src="" alt="">
+      <div class="modal-caption">
+        <p class="eyebrow dark"><span></span> PROJECT SCREEN</p>
+        <h2 id="modalTitle"></h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
