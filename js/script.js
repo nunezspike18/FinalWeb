@@ -6,6 +6,7 @@ menuToggle.addEventListener("click", () => {
   menuToggle.setAttribute("aria-expanded", open);
 });
 
+<<<<<<< HEAD
 /* Navbar dropdown - Vanilla JavaScript */
 const dropdownButton = document.querySelector("#dropdownBtn");
 const dropdownMenu = document.querySelector("#dropdownMenu");
@@ -39,6 +40,8 @@ dropdownMenu.querySelectorAll("a").forEach(link => {
 });
 
 
+=======
+>>>>>>> 191ea34b824d7c82a0dd95ab8aecc20c2016e38c
 document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", () => navLinks.classList.remove("open"));
 });
