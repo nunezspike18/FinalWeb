@@ -1,22 +1,23 @@
-PIKE-PIKE PORTFOLIO
+PIKE-PIKE REACT PORTFOLIO
 
-Files:
-- index.html
-- css/style.css
-- js/script.js
-- assets/ (wardrobe project screenshots + profile photo)
+The portfolio is built with React and Vite. Its reusable page components are in
+src/components/, with the application entry point in src/main.jsx. The existing
+visual design is in css/style.css, and the supplied photos/screens remain in
+assets/.
 
-Updates:
-- Portfolio name changed to Pike-Pike.
-- Profile photo replaced with the supplied photo.
-- Contact section includes:
-  Mobile: 09563563926
-  Email: nspike181@gmail.com
-  Facebook: Nu ñez
+Run locally:
+1. Install Node.js.
+2. Run `npm install`.
+3. Run `npm run dev` and open the local URL shown by Vite.
 
-To run:
-1. Extract the ZIP file.
-2. Open index.html in a browser.
-3. Keep the css, js, and assets folders beside index.html.
+Create a production build with `npm run build`. Vite writes the deployable
+website to `dist/`. Pushing to the `main` branch builds the site and publishes
+it to GitHub Pages using `.github/workflows/deploy-pages.yml`. Enable GitHub
+Pages with the GitHub Actions source in the repository's Pages settings if it
+is not already enabled. Run `npm run preview` to test the production build
+locally.
 
-Note: The Facebook name is displayed as provided. Replace its # link in index.html with the actual Facebook profile URL if desired.
+The contact form currently displays a confirmation message and is not connected
+to an email service. The Facebook name is displayed as provided; replace its #
+link in src/components/ContactSection.jsx with the actual Facebook profile URL
+if desired.
