@@ -39,12 +39,20 @@ export default function SiteHeader() {
         <div className={`nav-links${menuOpen ? " open" : ""}`} id="navLinks">
           {links.map(([label, href], index) => (
             <a
-              className={index === 0 ? "active" : undefined}
+              className={[
+                index === 0 ? "active" : "",
+                label === "Services" ? "nav-link-dropdown" : "",
+              ]
+                .filter(Boolean)
+                .join(" ")}
               href={href}
               key={href}
               onClick={closeMenu}
             >
               {label}
+              {label === "Services" && (
+                <span className="nav-dropdown-indicator" aria-hidden="true" />
+              )}
             </a>
           ))}
           <a className="nav-contact" href="#contact" onClick={closeMenu}>
