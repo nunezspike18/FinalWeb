@@ -3,6 +3,7 @@ import SectionHeading from "./SectionHeading.jsx";
 
 const services = [
   {
+    id: "service-web-development",
     number: "01",
     icon: "</>",
     title: "Web Development",
@@ -11,6 +12,7 @@ const services = [
     link: "01 — BUILD",
   },
   {
+    id: "service-ui-ux",
     number: "02",
     icon: "◈",
     title: "UI / UX Design",
@@ -19,6 +21,7 @@ const services = [
     link: "02 — DESIGN",
   },
   {
+    id: "service-interactive-features",
     number: "03",
     icon: "⚡",
     title: "Interactive Features",
@@ -192,7 +195,11 @@ export function ServicesSection() {
         </SectionHeading>
         <div className="service-grid">
           {services.map((service) => (
-            <article className="service-card reveal" key={service.number}>
+            <article
+              className="service-card reveal"
+              id={service.id}
+              key={service.number}
+            >
               <div className="service-number">{service.number}</div>
               <div className="service-icon">{service.icon}</div>
               <h3>{service.title}</h3>
