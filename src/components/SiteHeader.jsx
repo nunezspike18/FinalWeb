@@ -51,7 +51,13 @@ export default function SiteHeader() {
             >
               {label}
               {label === "Services" && (
-                <span className="nav-dropdown-indicator" aria-hidden="true" />
+                <svg
+                  className="nav-dropdown-indicator"
+                  aria-hidden="true"
+                  viewBox="0 0 12 12"
+                >
+                  <path d="m2 4 4 4 4-4" />
+                </svg>
               )}
             </a>
           ))}
